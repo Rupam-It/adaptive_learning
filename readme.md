@@ -130,16 +130,16 @@ Content-Type: application/json
 
 ---
 
-## 📊 Database Management (pgAdmin)
+## 📊 Database Management (Adminer)
+### **2. Access Adminer:**
+Open browser: **http://localhost:8080**
 
-1. Open http://localhost:5050
-2. Login: admin@admin.com / admin123
-3. Add Server:
-   - Name: `Adaptive Learning`
-   - Host: `localhost`
-   - Port: `5432`
-   - Database: `adaptive_learning`
-   - Username: `admin`
-   - Password: `admin123`
+### **3. Login:**
+```
+System:   PostgreSQL
+Server:   db
+Username: admin
+Password: admin123
+Database: adaptive_learning
 
 ---
